@@ -1,4 +1,6 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Seb
+  image: https://unsplash.it/299/?random
+- name: Romain
+  image: https://unsplash.it/300/?random
+- name: Anne
+  image: https://unsplash.it/301/?random

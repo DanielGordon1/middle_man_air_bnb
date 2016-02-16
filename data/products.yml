@@ -1,6 +1,6 @@
 - name: Seb
-  image: https://unsplash.it/299/?random
+  image: images/seb.jpg
 - name: Romain
-  image: https://unsplash.it/300/?random
+  image: images/romain.jpeg
 - name: Anne
-  image: https://unsplash.it/301/?random
+  image: images/anne.jpg

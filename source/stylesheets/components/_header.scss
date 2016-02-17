@@ -1,0 +1,19 @@
+.header-flat {
+    border: 1px solid #dce0e0;
+	.header-flat-details {
+	    display: flex;
+	    align-items: center;
+	    padding: 30px;
+		.header-flat-name {
+			padding-left: 40px;
+		}
+	}
+}
+
+.header-flat form {
+    margin: 20px 0;
+    margin-right: 0;
+    background: #F4F4F4;
+    padding: 15px;
+    border-radius: 3px;
+}

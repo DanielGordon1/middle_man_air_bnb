@@ -50,6 +50,11 @@ activate :autoprefixer
 #   end
 # end
 
+
+["anne", "seb", "romain", "daniel"].each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
@@ -82,10 +87,10 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
+end
 
   # Optional Settings
   # deploy.remote = 'custom-remote' # remote name or git url, default: origin
   # deploy.branch = 'custom-branch' # default: gh-pages
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
-end
